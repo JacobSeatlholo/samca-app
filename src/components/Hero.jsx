@@ -46,7 +46,7 @@ export default function Hero() {
             color: 'var(--olive)', fontSize: '0.7rem',
             letterSpacing: '0.2em', textTransform: 'uppercase', fontWeight: 700,
           }}>
-            25 – 27 August 2026 &nbsp;·&nbsp; Sun City, North West Province
+            20 – 22 July 2026 &nbsp;·&nbsp; Sun City, North West Province
           </span>
         </div>
 
