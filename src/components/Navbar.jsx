@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import { Mountain } from 'lucide-react'
 
 const NAV_LINKS = ['Agenda', 'Speakers', 'ESG Hub', 'Registration']
 
@@ -28,13 +27,13 @@ export default function Navbar() {
       className="nav-pad"
     >
       {/* Logo */}
-<img 
-  src="/favicon.svg" 
-  alt="SAMCA Logo" 
-  style={{ width: 38, height: 38, objectFit: 'contain' }} 
-/>
-      
-      
+      <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
+        <img
+          src="/favicon.svg"
+          alt="SAMCA Logo"
+          style={{ width: 38, height: 38, objectFit: 'contain' }}
+        />
+        <div>
           <div className="serif" style={{ color: 'var(--bone)', fontSize: '0.88rem', fontWeight: 700, letterSpacing: '0.08em', lineHeight: 1.1 }}>
             SAMCA
           </div>
