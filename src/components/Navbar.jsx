@@ -28,13 +28,12 @@ export default function Navbar() {
       className="nav-pad"
     >
       {/* Logo */}
-      <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
-        <div style={{
-          width: 38, height: 38, background: 'var(--olive)',
-          display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0,
-        }}>
-          <Mountain size={18} color="var(--bone)" strokeWidth={1.5} />
-        </div>
+<img 
+  src="/favicon.svg" 
+  alt="SAMCA Logo" 
+  style={{ width: 38, height: 38, objectFit: 'contain' }} 
+/>
+      
         <div>
           <div className="serif" style={{ color: 'var(--bone)', fontSize: '0.88rem', fontWeight: 700, letterSpacing: '0.08em', lineHeight: 1.1 }}>
             SAMCA
