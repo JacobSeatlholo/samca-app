@@ -34,7 +34,7 @@ export default function Navbar() {
   style={{ width: 38, height: 38, objectFit: 'contain' }} 
 />
       
-        <div>
+      
           <div className="serif" style={{ color: 'var(--bone)', fontSize: '0.88rem', fontWeight: 700, letterSpacing: '0.08em', lineHeight: 1.1 }}>
             SAMCA
           </div>
